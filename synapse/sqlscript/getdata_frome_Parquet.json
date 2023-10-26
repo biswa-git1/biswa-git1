@@ -2,7 +2,7 @@
 	"name": "getdata_frome_Parquet",
 	"properties": {
 		"content": {
-			"query": "select count(*) from OPENROWSET(\n    BULK 'https://biswadlgen2.blob.core.windows.net/biswadlgen2fsys/synapse/NYCTripSmall.parquet'\n,FORMAT='parquet'\n\n) as results",
+			"query": "select count(*) from OPENROWSET(\n    BULK 'https://biswadlgen2.blob.core.windows.net/biswadlgen2fsys/synapse/NYCTripSmall.parquet'\n,FORMAT='parquet'\n) as results1",
 			"metadata": {
 				"language": "sql"
 			},
