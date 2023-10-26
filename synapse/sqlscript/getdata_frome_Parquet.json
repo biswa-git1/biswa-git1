@@ -1,0 +1,17 @@
+{
+	"name": "getdata_frome_Parquet",
+	"properties": {
+		"content": {
+			"query": "select count(*) from OPENROWSET(\n    BULK 'https://biswadlgen2.blob.core.windows.net/biswadlgen2fsys/synapse/NYCTripSmall.parquet'\n,FORMAT='parquet'\n\n) as results",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": -1
+		},
+		"type": "SqlQuery"
+	}
+}

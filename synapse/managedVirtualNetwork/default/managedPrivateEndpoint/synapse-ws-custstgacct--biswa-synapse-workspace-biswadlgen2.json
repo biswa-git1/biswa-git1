@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-custstgacct--biswa-synapse-workspace-biswadlgen2",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/944ce26a-e32b-4832-9fba-a0052e0f7ab2/resourceGroups/biswa-synapse-demo/providers/Microsoft.Storage/storageAccounts/biswadlgen2",
+		"groupId": "dfs",
+		"fqdns": [
+			"biswadlgen2.dfs.core.windows.net"
+		]
+	}
+}

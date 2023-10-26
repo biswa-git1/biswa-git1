@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--biswa-synapse-workspace",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/944ce26a-e32b-4832-9fba-a0052e0f7ab2/resourceGroups/biswa-synapse-demo/providers/Microsoft.Synapse/workspaces/biswa-synapse-workspace",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"biswa-synapse-workspace-ondemand.849a2ae8-ed55-4baf-b548-2f08f6d296e2.sql.azuresynapse.net"
+		]
+	}
+}
